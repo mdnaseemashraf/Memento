@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ViewTasksActivity" >
+
+    <TextView
+        android:id="@+id/tasks_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"        
+        android:text="@string/tasks_title"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tasks_title"
+        android:layout_above="@+id/remove_tasks_button"
+        />
+    
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tasks_title"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/no_tasks"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/about_dev" />
+
+    <Button
+        android:id="@+id/add_tasks_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/about_button"
+        android:layout_alignParentLeft="true"
+        android:text="@string/add_task" />
+
+    <Button
+        android:id="@id/remove_tasks_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_tasks_button"
+        android:layout_alignParentLeft="true"
+        android:text="@string/remove_task"
+        android:textColor="@color/red" />
+    
+</RelativeLayout>

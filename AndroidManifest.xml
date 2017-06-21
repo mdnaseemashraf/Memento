@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.defunctteam.mementoprototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="2"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+ 	
+    <application
+        android:name=".MementoPrototypeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity android:name="com.defunctteam.mementoprototype.SplashScreenActivity"
+               android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                
+        <activity android:name="com.defunctteam.mementoprototype.AddTaskActivity"/>
+        <activity android:name="com.defunctteam.mementoprototype.AboutActivity"/>        
+        <activity android:name="com.defunctteam.mementoprototype.NaseemActivity"/>        
+        <activity android:name="com.defunctteam.mementoprototype.PraveenActivity"/>        
+        <activity android:name="com.defunctteam.mementoprototype.SumitActivity"/>        
+        <activity android:name="com.defunctteam.mementoprototype.RahulActivity"/>        
+        <activity android:name="com.defunctteam.mementoprototype.ViewTasksActivity"/>        
+    </application>	 	
+    
+</manifest>

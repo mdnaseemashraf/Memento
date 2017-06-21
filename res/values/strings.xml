@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memento</string>
+    <string name="add_task">Add Task</string>    
+	<string name="cancel_string">Cancel</string>    
+    <string name="tasks_title">Tasks to Do</string>        	
+	<string name="add_tasks_title">Add a New Task</string>   	
+    <string name="add_task_hint">Enter Task Here</string>
+    <string name="add_task_unsaved_title">Unsaved Tasks</string>
+    <string name="unsaved_task_changes_message">Would you like to add this Task?</string>
+    <string name="discard_task_changes">Discard</string>
+    <string name="no_tasks">No Tasks</string>    
+    <string name="remove_task">Remove Checked Tasks</string>                          
+    
+    <string name="task_manager_menu_title">Task Manager</string>    
+    <string name="return_to_app_string">Return to App</string>            
+    
+    <string name="name_naseem">Md. Naseem Ashraf</string>
+    <string name="name_praveen">Praveen Kumar</string>
+    <string name="name_sumit">Sumit Sagar</string>
+    <string name="name_rahul">Rahul Kumar</string>
+    <string name="name_p1">Team Lead and Lead Programmer</string>
+    <string name="name_p2">Java Programming</string>
+    <string name="name_p3">UI Design and Documentation</string>
+    <string name="name_p4">Documentation and Database</string>                
+    <string name="about_title">About the Developers: The Defunct Team</string>                
+    <string name="about_dev">About the Developers</string>                    
+    
+    <string name="about_dev11">BE/5504/09</string>                    
+    <string name="about_dev21">BE/5794/09</string>                    
+    <string name="about_dev31">BE/5669/09</string>                    
+    <string name="about_dev41">BE/5787/09</string>                    
+    
+    <string name="splash_screen_string">Memento Vivere >> Remember to Live</string>                    
+    
+</resources>

@@ -15,11 +15,11 @@ If you find my work useful or have any questions regarding it please mail me. Al
 Author
 ===========
 
-Mohammad Naseem Ashraf
+MD Naseem Ashraf
 
 E-Mail: md.naseem.ashraf@gmail.com
 
-Blog: http://naseemsidealog.blogspot.in/
+Blog: http://mdnaseemashraf.wordpress.com/
 
 LinkedIn: in.linkedin.com/in/naseemashraf/
 

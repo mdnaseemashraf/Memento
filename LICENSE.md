@@ -21,7 +21,7 @@ E-Mail: md.naseem.ashraf@gmail.com
 
 Blog: http://mdnaseemashraf.wordpress.com/
 
-LinkedIn: in.linkedin.com/in/naseemashraf/
+LinkedIn: http://in.linkedin.com/in/naseemashraf/
 
 GitHub: https://github.com/mdnaseemashraf
 
